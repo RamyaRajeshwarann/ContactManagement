@@ -13,9 +13,7 @@ type Contact struct {
 	PhoneNumber string `json:"phone_number"`
 	Email       string `json:"email"`
 }
-
 var contacts []Contact
-
 // Ctrl+Shift+i
 func main() {
 	loadContacts()
